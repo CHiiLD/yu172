@@ -13,4 +13,3 @@ $\exists$ exist 존재한다
 $e$ each 각각의
 $Def$ definition 정의
 $Thm$ theorem 정리
-$:$ such that 그러한
