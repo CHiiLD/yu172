@@ -43,6 +43,7 @@ __필요한 기능의 실현을 위해 관련 요소를 어떤 법칙에 따라 
 + 비용 - MM
 + 일정 - 짧은 time-to-market
 + 품질 - ISO 9126
+
 ![ISO 9126](./resources/sw-quality.png)
 
 ## 일관성과 재현성
