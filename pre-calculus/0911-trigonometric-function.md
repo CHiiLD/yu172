@@ -78,3 +78,38 @@ $$
 3. 기함수
 4. x 절편: $\{n\pi | n \in \mathbb{N}\}$
 5. y 절편: 0
+
+
+## 역삼각함수
+
+### $y=\sin^{-1}x$
+
+$$
+\begin{aligned}
+&y=\sin{x}:[-\dfrac{\pi}{2}, \dfrac{\pi}{2}] \to [-1, 1]\\
+&y=\sin^{-1}x:[-1, 1] \to [-\dfrac{\pi}{2}, \dfrac{\pi}{2}]
+\end{aligned}
+$$
+
+
+
+### $y=\cos^{-1}x$
+
+$$
+\begin{aligned}
+&y=\cos{x}:[0, 2\pi] \to [-1, 1]\\
+&y=\cos^{-1}x:[-1, 1] \to [0, 2\pi]
+\end{aligned}
+$$
+
+
+
+### $y=\tan^{-1}x$
+
+$$
+\begin{aligned}
+&y=\tan{x}:[-\dfrac{\pi}{2}, \dfrac{\pi}{2}] \to \mathbb{R}\\
+&y=\tan^{-1}x:\mathbb{R} \to [-\dfrac{\pi}{2}, \dfrac{\pi}{2}]
+\end{aligned}
+$$
+

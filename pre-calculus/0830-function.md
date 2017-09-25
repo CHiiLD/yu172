@@ -45,20 +45,23 @@ $g \circ f(a) = g(f(a)), \space \forall a \in A $
 함수가 합성될려면 $f$의 공역이 $g$의 정의역과 일치해야 한다.
 
 ## 역(inverse) 함수
-$
+$$
 \begin{aligned}
 &Thm \space f:A \to B \space bijective \\
 &\iff \exists f^{-1}B \to A \space : \space inverse \space ft \space of \space f \\
 &\iff f \circ f^{-1} = I_B \\
 &\iff f^{-1} \circ f = I_A \\
 &\end{aligned}
-$
+$$
+
+
 
 ### 역함수 구하는 방법
-$
+$$
 \begin{aligned}
 &step1 \space check \space f:bijective \\
 &step2 \space x \rightleftharpoons y \\
 &step3 \space Solve \space for \space y \\
 \end{aligned}
-$
+$$
+
