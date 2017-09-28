@@ -82,7 +82,7 @@ $$
 
 ## 역삼각함수
 
-### $y=\sin^{-1}x$
+- $y=\sin^{-1}x$
 
 $$
 \begin{aligned}
@@ -93,7 +93,7 @@ $$
 
 
 
-### $y=\cos^{-1}x$
+- $y=\cos^{-1}x$
 
 $$
 \begin{aligned}
@@ -104,7 +104,7 @@ $$
 
 
 
-### $y=\tan^{-1}x$
+- $y=\tan^{-1}x$
 
 $$
 \begin{aligned}
@@ -113,3 +113,66 @@ $$
 \end{aligned}
 $$
 
+# 해석적 삼각함수와 삼각법의 응용
+
+## 합과 차의 공식
+
+### 오일러의 공식
+
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+$$
+
+### 합과 차의 공식
+
+$$
+\begin{aligned}
+&Thm. \\
+&\sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \cos\alpha\sin\beta \\
+&\cos(\alpha \pm \beta) = \cos\alpha\cos\beta \mp \sin\alpha\sin\beta \\
+&\tan(\alpha \pm \beta) = \dfrac{\tan\alpha \pm \tan\beta}{1 \mp \tan\alpha\tan\beta}
+\end{aligned}
+$$
+
+### 합과 차의 공식 유도
+
+$$
+\begin{aligned}
+&Def. \\
+&e^{i(\alpha + \beta)} = \cos(\alpha + \beta) + i\sin(\alpha + \beta) \\
+&= e^{i\alpha}  e^{i\beta} \\
+&= (\cos\alpha + i\sin\alpha)(\cos\beta + i\sin\beta) \\
+&= (\cos\alpha\cos\beta - \sin\alpha\sin\beta) + i(\sin\alpha\cos\beta + \cos\alpha\sin\beta)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+Def. \\
+&\tan(\alpha + \beta) =\dfrac{\sin(\alpha + \beta)}{\cos(\alpha + \beta)} \\
+&= \dfrac{\sin\alpha\cos\beta + \cos\alpha\sin\beta}{\cos\alpha\cos\beta - \sin\alpha\sin\beta} \\
+&= \dfrac{\dfrac{\sin\alpha\cos\beta}{\cos\alpha\cos\beta} + \dfrac{\cos\alpha\sin\beta}{\cos\alpha\cos\beta}}{1 - \dfrac{\sin\alpha\sin\beta}{\cos\alpha\cos\beta}} \\
+&= \dfrac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}
+\end{aligned}
+$$
+
+## 배각 공식
+
+- $\sin(2\theta) = 2\sin\theta\cos\theta$
+- $\cos(2\theta) = \cos^2\theta-\sin^2\theta = 1 - 2\sin^2\theta = 2\cos^2\theta - 1$
+- $\tan(2\theta) = \dfrac{2\tan\theta}{1 + \tan^2\theta}$
+
+
+## 반각 공식
+
+- $\sin\dfrac{\theta}{2} = \pm\sqrt{\dfrac{1- \cos\theta}{2}}$
+- $\cos\dfrac{\theta}{2} = \pm\sqrt{\dfrac{1+ \cos\theta}{2}}$
+- $\tan\dfrac{\theta}{2} = \pm\sqrt{\dfrac{1- \cos\theta}{1+ \cos\theta}}$
+
+$\pm$ 은 $\dfrac{\theta}{2}$가 몇 사분면인지에 따라 결정된다.
+
+
+
+- $\cos^2\theta = \dfrac{1 + \cos(2\theta)}{2}$
+- $\sin^2\theta = \dfrac{1 - \cos(2\theta)}{2}$
+- $\tan^2\theta = \dfrac{1 - \cos^2\theta}{1 + \cos^2\theta}$
