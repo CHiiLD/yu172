@@ -176,3 +176,20 @@ $\pm$ 은 $\dfrac{\theta}{2}$가 몇 사분면인지에 따라 결정된다.
 - $\cos^2\theta = \dfrac{1 + \cos(2\theta)}{2}$
 - $\sin^2\theta = \dfrac{1 - \cos(2\theta)}{2}$
 - $\tan^2\theta = \dfrac{1 - \cos^2\theta}{1 + \cos^2\theta}$
+
+## 사인법칙과 코사인법칙
+
+### 사인법칙
+
+$$
+\dfrac{\sin A}{a} = \dfrac{\sin B}{b} = \dfrac{\sin C}{c}
+$$
+
+### 코사인법칙
+
+$$
+a^2 = b^2 + c^2 - 2bc\cos A\\
+b^2 = a^2 + c^2 - 2ac\cos B\\
+c^2 = a^2 + b^2 - 2ab\cos C
+$$
+
