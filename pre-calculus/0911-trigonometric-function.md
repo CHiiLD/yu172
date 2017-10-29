@@ -18,7 +18,7 @@
 - $\sin\theta = \dfrac{y}{r}$
 
 
-- $\cos\theta = \dfrac{y}{r}$
+- $\cos\theta = \dfrac{x}{r}$
 
 
 - $\tan\theta = \dfrac{y}{x}$
@@ -30,6 +30,14 @@
 | $\tan\theta$ |     $0$      | $\dfrac{1}{\sqrt{3}}$ |           1           |      $\sqrt{3}$       | $\dfrac{\pi}{2}$ |
 
 ## 삼각함수의 성질
+
+### 삼각함수의 역수
+
+$$
+\csc A = \dfrac{1}{\sin A}\\
+\sec A = \dfrac{1}{\cos A}\\
+\cot A = \dfrac{1}{\tan A}
+$$
 
 ### 사분면의 양수
 
@@ -53,7 +61,7 @@
 - $1 + \cot^2\theta = csc^2\theta$
 
 
-## 주기함수
+## 주기함수의 성질
 
 $$
 Def. f(x + p) = f(x) for all x \\
@@ -62,22 +70,25 @@ Def. f(x + p) = f(x) for all x \\
 $$
 
 - 
-  $\dfrac{\cos(\pi + \theta)}{\sin(\pi + \theta)} = \dfrac{-\sin\theta}{-\cos\theta} = \tan\theta$ 
+  $\tan(\pi + \theta) = \dfrac{\sin(\pi + \theta)}{\cos(\pi + \theta)} = \dfrac{-\sin\theta}{-\cos\theta} = \tan\theta$ 
 
 - $\sin(n\pi + \theta) = (-1)^n\sin\theta$ 
 - $\cos(n\pi + \theta) = (-1)^n\cos\theta$ 
-- $\tan(n\pi + \theta) = \tan\theta$ 
-- $\sin(\dfrac{(2n-1)\pi}{2}) = (-1)^n\cos\theta$ 
-- $\cos(\dfrac{(2n-1)\pi}{2}) = (-1)^n\sin\theta$
-- $\tan(\dfrac{(2n-1)\pi}{2}) = \cot\theta$
+- $\tan(n\pi + \theta) = \tan\theta$   
+- $\sin(\dfrac{(2n-1)\pi}{2})\theta = (-1)^n\cos\theta$ 
+- $\cos(\dfrac{(2n-1)\pi}{2})\theta = (-1)^n\sin\theta$
+- $\tan(\dfrac{(2n-1)\pi}{2})\theta = \cot\theta$
 
-## $y = \sin x$ 의 그래프
+## 주기함수 그래프
 
-1. 기본주기: 2$\pi$
-2. $-1 \le \sin x \le 1$
-3. 기함수
-4. x 절편: $\{n\pi | n \in \mathbb{N}\}$
-5. y 절편: 0
+$$
+y = a \sin  (b\theta - c) + d\\
+y = a \cos  (b\theta - c) + d
+$$
+
+|         주기          |    최대값    |    최소값     |  진폭  |       위상이동       |
+| :-----------------: | :-------: | :--------: | :--: | :--------------: |
+| $\dfrac{2\pi}{|b|}$ | $|a| + d$ | $-|a| + d$ | $a$  | $\dfrac{c}{|b|}$ |
 
 
 ## 역삼각함수
@@ -93,12 +104,12 @@ $$
 
 
 
-- $y=\cos^{-1}x$
+- $y=\cos^{-1}x​$
 
 $$
 \begin{aligned}
-&y=\cos{x}:[0, 2\pi] \to [-1, 1]\\
-&y=\cos^{-1}x:[-1, 1] \to [0, 2\pi]
+&y=\cos{x}:[0, \pi] \to [-1, 1]\\
+&y=\cos^{-1}x:[-1, 1] \to [0, \pi]
 \end{aligned}
 $$
 
@@ -170,8 +181,6 @@ $$
 - $\tan\dfrac{\theta}{2} = \pm\sqrt{\dfrac{1- \cos\theta}{1+ \cos\theta}}$
 
 $\pm$ 은 $\dfrac{\theta}{2}$가 몇 사분면인지에 따라 결정된다.
-
-
 
 - $\cos^2\theta = \dfrac{1 + \cos(2\theta)}{2}$
 - $\sin^2\theta = \dfrac{1 - \cos(2\theta)}{2}$

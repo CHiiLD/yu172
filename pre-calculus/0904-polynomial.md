@@ -24,18 +24,18 @@ $y$ 절편 $= -\frac{c}{b}$
 
 ### 두 직선의 평행과 수직(직교)
 $Thm \space Let. \space m : l_1$의 기울기, $m_2 : l_2$의 기울기
-$
+$$
 \begin{aligned}
-&1)l_1 \parallel l_2 \iff m_1 = m_2 \\
-&2)l_1 \bot l_2 \iff m_1 m_2 = -1 \iff \alpha \cdot \beta = 0 \\
+&\text{1) }l1 \parallel l2 \iff m1 = m2 \\
+&\text{2) }l1 \bot l2 \iff m1 m2 = -1 \iff \alpha \cdot \beta = 0 \\
 \end{aligned}
-$
+$$
 
 ## 우함수와 기함수
 + 우함수 - y축에 대칭인 함수
   $Def. \space f: even\space ft \space if \space f(-x) = f(x) \space for \space all \space x$
 
-+ 기함수 + 원점에 대칭인 함수
++ 기함수 - 원점에 대칭인 함수
   $Def. \space f: odd \space ft \space if \space f(-x) = -f(x) \space for \space all \space x$
 
 ## $y=f(x)$의 그래프 이동
