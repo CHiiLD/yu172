@@ -84,33 +84,33 @@ binarycreator --offline-only -c <config.xml path> -p packages <installer program
 
 #### 3.1 설치 마법사 시작
 
-![](./resources/install step (2).png)
+![](./resources/install-step-(2).png)
 
 #### 3.2 설치 디렉토리 설정
 
-![](./resources/install step (3).png)
+![](./resources/install-step-(3).png)
 
 설치할 디렉토리를 설정하니다. 여기선 someDirectory 디렉토리에 설치해 보겠습니다.
 
 #### 3.3 설치 패키지 선택
 
-![](./resources/install step (4).png)
+![](./resources/install-step-(4).png)
 
 #### 3.4 시작 메뉴에 바로가기 설정
 
-![](./resources/install step (5).png)
+![](./resources/install-step-(5).png)
 
 #### 3.5 설치 전 확인
 
-![](./resources/install step (6).png)
+![](./resources/install-step-(6).png)
 
 #### 3.5 설치 진행
 
-![](./resources/install step (7).png)
+![](./resources/install-step-(7).png)
 
 #### 3.6 설치 완료
 
-![](./resources/install step (1).png)
+![](./resources/install-step-(1).png)
 
 #### 3.7 설치 완료 확인
 
